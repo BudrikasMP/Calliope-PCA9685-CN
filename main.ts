@@ -9,7 +9,7 @@
  */
 
 //% weight=5 color=#0fbc11 icon="\uf1b6"
-namespace PCA9685舵机驱动 {
+namespace PCA9685тест {
     let PCA9685_ADDRESS = 0x40
     const MODE1 = 0x00
     const PRESCALE = 0xFE
@@ -19,7 +19,7 @@ namespace PCA9685舵机驱动 {
 
     // List of servos for the servo block to use.
     export enum Servos {
-        //% block="舵机0"
+        //% block="Серво0"
         Servo0 = 0,
         //% block="舵机1"
         Servo1 = 1,
